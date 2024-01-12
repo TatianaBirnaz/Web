@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coffee Home</title>
+  <link rel="icon" type="image/x-icon" href="coffee.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <a href="#">Coffee<span>Home</span></a>
+    </div>
+    <nav>
+      <div class="menu-bar">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#hot coffees">Hot Coffees</a></li>
+        <li><a href="#cold coffees">Cold Coffees</a></li>
+        <li><a href="#frappucino coffees">Frappucino Coffees</a></li>
+        <li><a href="#tea">Tea</a></li>
+        <li><a href="#sweets">Sweets</a></li>
+        <li><a href="#contact ">Contact </a></li>
+        <div class="card-body">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-solid fa-heart"></i>
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+      </div>
+      </ul>
+    </nav>
+  </header>
+  <div class="content" id="home">
+    <h2> Coffee Home</h2>
+    <p>Would you like to start the day with a nice coffee?</p>
+  </div>
+  
+  <div class="menu" id="menu">
+    <div class="menu-header">
+      <h3>Menu</h3>
+      <h4>Coffee Home Menu</h4>
+    </div>
+    <div class="menu-content">
+      <div class="hot-coffees">
+        <div class="hot-coffees-image">
+          <img src="hot.jpg" alt="">
+        </div>
+        <div class="hot-coffees-body">
+          <h2>Hot Coffees</h2>
+        </div>
+      </div>
+      <div class="cold-coffees">
+        <div class="cold-coffees-image">
+          <img src="vanilla-iced-coffee-2-735x1101.jpg" alt="">
+        </div>
+        <div class="cold-coffees-body">
+          <h2>Cold Coffees</h2>
+        </div>
+      </div>
+      <div class="frappucino-coffees">
+        <div class="frappucino-coffees-image">
+          <img src="frapucino.jpg" alt="">
+        </div>
+        <div class="frappucino-coffees-body">
+          <h2>Frappucino Coffees</h2>
+        </div>
+      </div>
+    </div>
+    <div class="shop" id="hot coffees">
+      <div class="shop-header">
+        <h3>Shop</h3>
+        <h4>Hot Coffees</h4>
+      </div>
+
+    </div>
+    <div class="shop-box">
+      <div class="item-1">
+        <div class="card">
+          <div class="card-image">
+            <img src="caramel machiato.jpg">
+          </div>
+          <div class="card-body">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <label class="cash">4.45$</label>
+            <h3>Caramel Machiato</h3>
+          </div>
+        </div>
+      </div>
+      <div class="item-2">
+        <div class="card">
+          <div class="card-image">
+            <img src="flat white.jpg">
+          </div>
+          <div class="card-body">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <label class="cash">3.75$</label>
+            <h3>Flat White</h3>
+          </div>
+        </div>
+      </div>
+      <div class="item-3">
+        <div class="card">
+          <div class="card-image">
+            <img src="cappucino.jpg">
+          </div>
+          <div class="card-body">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <label class="cash">3.95$</label>
+            <h3>Cappuccino</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="shop-box">
+      <div class="item-4">
+        <div class="card">
+          <div class="card-image">
+            <img src="latte-small.jpg">
+          </div>
+          <div class="card-body">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <label class="cash">2.79$</label>
+            <h3>Latte</h3>
+          </div>
+        </div>
+      </div>
+      <div class="item-5">
+        <div class="card">
+          <div class="card-image">
+            <img src="americano.jpg">
+          </div>
+          <div class="card-body">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <label class="cash">3.45$</label>
+            <h3>Americano</h3>
+          </div>
+        </div>
+      </div>
+      <div class="item-6">
+        <div class="card">
+          <div class="card-image">
+            <img src="espresso.png">
+          </div>
+          <div class="card-body">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <label class="cash">3.25$</label>
+            <h3>Espresso</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="shop" id="cold coffees">
+      <div class="shop-header">
+        <h3>Shop</h3>
+        <h4>Cold Coffees</h4>
+      </div>
+
+    </div>
+    <div class="shop-box">
+      <div class="item-1">
+        <div class="card">
+          <div class="card-image">
+            <img src="iced-mocha-image-square.jpg">
+          </div>
+          <div class="card-body">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <label class="cash">4.45$</label>
+            <h3>Iced Mocha</h3>
+          </div>
+        </div>
+      </div>
+      <div class="item-2">
+        <div class="card">
+          <div class="card-image">
+            <img src="iced vietnamese.jpg">
+          </div>
+          <div class="card-body">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <label class="cash">3.75$</label>
+            <h3>Vietnamese iced coffee</h3>
+          </div>
+        </div>
+      </div>
+      <div class="item-3">
+        <div class="card">
+          <div class="card-image">
+            <img src="cold brew.jpg">
+          </div>
+          <div class="card-body">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <label class="cash">3.95$</label>
+            <h3>Cold Brew</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="shop-box">
+      <div class="item-4">
+        <div class="card">
+          <div class="card-image">
+            <img src="mocha smoothie.jpg">
+          </div>
+          <div class="card-body">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <label class="cash">2.79$</label>
+            <h3>Mocha Smoothie</h3>
+          </div>
+        </div>
+      </div>
+      <div class="item-5">
+        <div class="card">
+          <div class="card-image">
+            <img src="iced americano.jpg">
+          </div>
+          <div class="card-body">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <label class="cash">3.45$</label>
+            <h3>Iced Americano</h3>
+          </div>
+        </div>
+      </div>
+      <div class="item-6">
+        <div class="card">
+          <div class="card-image">
+            <img src="Honey-Oatmilk-Latte-10.jpg">
+          </div>
+          <div class="card-body">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <label class="cash">3.25$</label>
+            <h3>Iced honey oat coffee</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="shop-box">
+      <div class="item-7">
+        <div class="card">
+          <div class="card-image">
+            <img src="Iced_Latte.jpg">
+          </div>
+          <div class="card-body">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <label class="cash">2.79$</label>
+            <h3>Iced Latte</h3>
+          </div>
+        </div>
+      </div>
+      <div class="item-8">
+        <div class="card">
+          <div class="card-image">
+            <img src="Iced_Caramel_Cappuccino.jpg">
+          </div>
+          <div class="card-body">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <label class="cash">3.45$</label>
+            <h3>Iced Cappucino</h3>
+          </div>
+        </div>
+      </div>
+      <div class="item-9">
+        <div class="card">
+          <div class="card-image">
+            <img src="iced coconut.jpg">
+          </div>
+          <div class="card-body">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <label class="cash">3.25$</label>
+            <h3>Iced coconut</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="shop" id="frappucino coffees">
+      <div class="shop-header">
+        <h3>Shop</h3>
+        <h4>Frappucino Coffees</h4>
+      </div>
+
+    </div>
+    <div class="shop-box">
+      <div class="item-1">
+        <div class="card">
+          <div class="card-image">
+            <img src="Starbucks-Caramel-Frappuccino-Pin-2.jpg">
+          </div>
+          <div class="card-body">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <label class="cash">4.45$</label>
+            <h3>Caramel Frappucino</h3>
+          </div>
+        </div>
+      </div>
+      <div class="item-2">
+        <div class="card">
+          <div class="card-image">
+            <img src="coffee-ice-cream-frappe-frappuccino-feat.jpg">
+          </div>
+          <div class="card-body">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <label class="cash">3.75$</label>
+            <h3>Coffee Frappucino</h3>
+          </div>
+        </div>
+      </div>
+      <div class="item-3">
+        <div class="card">
+          <div class="card-image">
+            <img src="Java-Chip-Frappuccino-Recipe.jpg">
+          </div>
+          <div class="card-body">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <label class="cash">3.95$</label>
+            <h3>Java Chip Frappucino</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="shop-box">
+      <div class="item-4">
+        <div class="card">
+          <div class="card-image">
+            <img src="espresso frappucino.jpg">
+          </div>
+          <div class="card-body">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <label class="cash">2.79$</label>
+            <h3>Espresso Frappucino</h3>
+          </div>
+        </div>
+      </div>
+      <div class="item-5">
+        <div class="card">
+          <div class="card-image">
+            <img src="Mocha-Frappe-11.jpg">
+          </div>
+          <div class="card-body">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <label class="cash">3.45$</label>
+            <h3>Mocha Frappucino</h3>
+          </div>
+        </div>
+      </div>
+      <div class="item-6">
+        <div class="card">
+          <div class="card-image">
+            <img src="white chocolate frappucino.jpg">
+          </div>
+          <div class="card-body">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <label class="cash">3.25$</label>
+            <h3>White Chocolate Mocha Frappucino</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+
+      <div class="shop" id="tea">
+        <div class="shop-header">
+          <h3>Shop</h3>
+          <h4>Tea</h4>
+        </div>
+        </div>
+        <div class="shop-box">
+          <div class="item-1">
+            <div class="card">
+              <div class="card-image">
+                <img src="green tea.jpg">
+              </div>
+              <div class="card-body">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <label class="cash">10.45$</label>
+                <h3>Green Tea</h3>
+                
+              </div>
+            </div>
+          </div>
+          <div class="item-2">
+            <div class="card">
+              <div class="card-image">
+                <img src="black tea.jpg">
+              </div>
+              <div class="card-body">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <label class="cash">14.25$</label>
+                <h3>Black Tea</h3>
+                
+              </div>
+            </div>
+          </div>
+          <div class="item-3">
+            <div class="card">
+              <div class="card-image">
+                <img src="WhiteTea.png">
+              </div>
+              <div class="card-body">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <label class="cash">9.95$</label>
+                <h3>White Tea</h3>
+                </div>
+                </div>
+                </div>
+                </div>
+      <div class="shop" id="sweets">
+        <div class="shop-header">
+          <h3>Shop</h3>
+          <h4>Sweets</h4>
+        </div>
+        </div>
+        <div class="shop-box">
+          <div class="item-1">
+            <div class="card">
+              <div class="card-image">
+                <img src="macarons.jpg">
+              </div>
+              <div class="card-body">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <label class="cash">10.45$</label>
+                <h3>Best Seller Macarons</h3>
+                
+              </div>
+            </div>
+          </div>
+          <div class="item-2">
+            <div class="card">
+              <div class="card-image">
+                <img src="tiramisu.jpg">
+              </div>
+              <div class="card-body">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <label class="cash">14.25$</label>
+                <h3>Tiramisu</h3>
+                
+              </div>
+            </div>
+          </div>
+          <div class="item-3">
+            <div class="card">
+              <div class="card-image">
+                <img src="cup.jpg">
+              </div>
+              <div class="card-body">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <label class="cash">9.95$</label>
+                <h3>Cupcakes</h3>
+                
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="shop-box">
+            <div class="item-4">
+              <div class="card">
+                <div class="card-image">
+                  <img src="Donuts6286.jpg">
+                </div>
+                <div class="card-body">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                  <label class="cash">5.79$</label>
+                  <h3>Donuts</h3>
+               
+                </div>
+              </div>
+            </div>
+            <div class="item-5">
+              <div class="card">
+                <div class="card-image">
+                  <img src="Banana-Split-Pastry-sq.jpg">
+                </div>
+                <div class="card-body">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                  <label class="cash">18.05$</label>
+                  <h3>Banana Split</h3>
+                 
+                </div>
+              </div>
+            </div>
+            <div class="item-6">
+              <div class="card">
+                <div class="card-image">
+                  <img src="vanila chescake.jpg">
+                </div>
+                <div class="card-body">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                  <label class="cash">6.25$</label>
+                  <h3>Vanilla Chescake</h3>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="shop-box">
+            <div class="item-7">
+              <div class="card">
+                <div class="card-image">
+                  <img src="Mini-Pancakes-3.jpg">
+                </div>
+                <div class="card-body">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                  <label class="cash">4.60$</label>
+                  <h3>Mini Pancakes</h3>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="item-8">
+              <div class="card">
+                <div class="card-image">
+                  <img src="img_9127_71974.jpg">
+                </div>
+                <div class="card-body">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                  <label class="cash">2.45$</label>
+                  <h3>Hot Brownies</h3>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="item-9">
+              <div class="card">
+                <div class="card-image">
+                  <img src="Cannoli-Recipe-4-scaled.jpg">
+                </div>
+                <div class="card-body">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                  <label class="cash">8.45$</label>
+                  <h3>Canolli Recipe</h3>
+                  
+                </div>
+              </div>
+            </div>
+            </div>
+
+
+  </div>
+  <div class="contact" id="contact">
+    <div class="contact-box">
+      <div class="contact-image">
+        <img src="contact.jpg">
+      </div>
+    </div>
+    <div class="contact-box">
+      <div class="contact-body">
+        <form>
+          <h2>Contact us</h2>
+          <div class="form-content">
+            <input type="text" required>
+            <span></span>
+            <label>Username</label>
+          </div>
+          <div class="form-content">
+            <input type="email" required>
+            <span></span>
+            <label>Email</label>
+          </div>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer-box">
+      <div class="social-media">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+      <div class="copyright">
+        <label class="exemplu">
+          <p>Copyright &copy; 2023 All rights reserved</p>
+        </label>
+        <label class="exemplu">
+          <p>This template is made with by Bîrnaz Tatiana, gr. MI21Z</p>
+        </label>
+        <label class="exemplu">
+          <p>Faculty of Real, Economic and Environmental Sciences</p>
+        </label>
+        <label class="exemplu">
+          <p>"Alecu Russo" State University from Bălți</p>
+        </label>
+      </div>
+      <div class="brand">
+        <label>Coffee<span>Home</span></label>
+      
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
